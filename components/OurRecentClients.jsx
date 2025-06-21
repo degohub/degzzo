@@ -7,25 +7,25 @@ import Link from "next/link";
 const clients = [
   {
     name: "RR ENTERPRISES",
-    logo: "/Clients/Degzzo-rr.webp",
+    logo: "/clients/Degzzo-rr.webp",
     link: "/",
     desc: "A dynamic identity for RR Enterprises—built to scale with their growing distribution network.",
   },
   {
     name: "MSmappillai",
-    logo: "/Clients/Degzzo-ms.webp",
+    logo: "/clients/Degzzo-ms.webp",
     link: "/",
     desc: "Brand identity and website design for MS Mappillai—a modern digital presence for a bold brand.",
   },
   {
     name: "MACRO WEALTH",
-    logo: "/Clients/Degzzo-mw.webp",
+    logo: "/clients/Degzzo-mw.webp",
     link: "/",
     desc: "Redesigned the logo and crafted a bold branding poster for Macro Wealth—a finance-first brand with clarity and confidence.",
   },
   {
     name: "UNIQUE CREATION",
-    logo: "/Clients/Degzzo-uc.webp",
+    logo: "/clients/Degzzo-uc.webp",
     link: "/",
     desc: "Logo design and animation created for Unique Creation—a brand that celebrates originality through motion and identity.",
   },

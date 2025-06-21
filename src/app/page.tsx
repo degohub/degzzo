@@ -42,7 +42,7 @@ function Home() {
               className="w-full max-w-[800px]"
               onError={(e) => console.error('Video error:', e)}
             >
-              <source src="/Videos/degzzo-logo-v.mp4" type="video/mp4; codecs=avc1.42E01E, mp4a.40.2" />
+              <source src="/Videos/degzzo-logo-v.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
