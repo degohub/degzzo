@@ -45,6 +45,13 @@ function Home() {
                 </div>
             </div>
           </div>
+          {/* About */}
+          <div className="bg-[#ff9100] pt-5 mt-20 text-white py-10 h-90">
+            <div className="mx-5 xl:mx-40">
+            <h1 className='text-xl xl:text-3xl font-poppins font-bold pb-5'>Design is our language. Enhancing engagement between brands and people.</h1>
+            <p className='text-black'>5+ Years. 25+ Clients.</p>
+            </div>
+          </div>
 
           <div className="mx-5 xl:mx-40 text-center py-25">
               <div className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900">Our Servies</div>
@@ -64,13 +71,7 @@ function Home() {
                 </div>
 
           </div>
-          {/* About */}
-          <div className="bg-[#ff9100] text-white py-10">
-            <div className="mx-5 xl:mx-40">
-            <h1 className='text-3xl'>Design is our language. Enhancing engagement between brands and people.</h1>
-            <p>5+ Years. 25+ Clients.</p>
-            </div>
-          </div>
+          
 
 
 

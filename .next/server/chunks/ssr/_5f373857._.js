@@ -125,7 +125,7 @@ function GlobalPartnerSection() {
         return ()=>intervals.forEach(clearInterval);
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative py-10",
+        className: "relative py-10 text-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "p-5 mx-auto text-center",
             children: [
@@ -161,7 +161,7 @@ function GlobalPartnerSection() {
                                 "Partner H"
                             ].includes(partner.name) ? "hidden md:block" : ""}`,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex justify-center relative w-full max-w-[80px] sm:max-w-[130px] md:max-w-[100px] mx-auto",
+                                className: "flex justify-center relative w-full max-w-[80px] sm:max-w-[130px] md:max-w-[100px] mx-auto ",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     href: activeLogo.link,
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -181,7 +181,7 @@ function GlobalPartnerSection() {
                                             transition: {
                                                 duration: 0.2
                                             },
-                                            className: "w-full h-auto object-cover grayscale hover:grayscale-0 transition duration-300 cursor-pointer"
+                                            className: "w-full h-auto object-cover  transition duration-300 cursor-pointer bg-white rounded-2xl p-2 shadow-lg hover:scale-105"
                                         }, activeLogo.src, false, {
                                             fileName: "[project]/components/GlobalClients.jsx",
                                             lineNumber: 108,

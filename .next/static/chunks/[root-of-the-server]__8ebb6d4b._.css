@@ -239,6 +239,7 @@
     --text-6xl--line-height: 1;
     --text-7xl: 4.5rem;
     --text-7xl--line-height: 1;
+    --font-weight-extralight: 200;
     --font-weight-light: 300;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
@@ -774,12 +775,20 @@
     height: calc(var(--spacing) * 40);
   }
 
+  .h-60 {
+    height: calc(var(--spacing) * 60);
+  }
+
   .h-70 {
     height: calc(var(--spacing) * 70);
   }
 
   .h-80 {
     height: calc(var(--spacing) * 80);
+  }
+
+  .h-90 {
+    height: calc(var(--spacing) * 90);
   }
 
   .h-100 {
@@ -1575,6 +1584,10 @@
     padding-top: calc(var(--spacing) * 20);
   }
 
+  .pt-30 {
+    padding-top: calc(var(--spacing) * 30);
+  }
+
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
   }
@@ -1615,8 +1628,16 @@
     text-align: right;
   }
 
+  .font-aladin {
+    font-family: Aladin, "system-ui";
+  }
+
   .font-boldonse {
     font-family: Boldonse, "system-ui";
+  }
+
+  .font-mono {
+    font-family: var(--font-geist-mono);
   }
 
   .font-poppins {
@@ -1700,6 +1721,11 @@
   .font-extrabold {
     --tw-font-weight: var(--font-weight-extrabold);
     font-weight: var(--font-weight-extrabold);
+  }
+
+  .font-extralight {
+    --tw-font-weight: var(--font-weight-extralight);
+    font-weight: var(--font-weight-extralight);
   }
 
   .font-light {
@@ -2805,6 +2831,13 @@
     .xl\:text-2xl {
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
+
+  @media (width >= 80rem) {
+    .xl\:text-3xl {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
     }
   }
 
