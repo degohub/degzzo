@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/contact/route": "/api/contact",
+  "/favicon.ico/route": "/favicon.ico",
+  "/About/page": "/About",
+  "/Joinus/page": "/Joinus",
+  "/OurWork/page": "/OurWork",
+  "/Partners/page": "/Partners",
+  "/Partners/unique/page": "/Partners/unique",
+  "/OurService/page": "/OurService",
+  "/careers/page": "/careers",
+  "/industries/page": "/industries",
+  "/products.jsx/page": "/products.jsx",
+  "/page": "/",
+  "/process/page": "/process"
+}
