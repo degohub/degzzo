@@ -2,15 +2,15 @@
   "/_not-found/page": "/_not-found",
   "/api/contact/route": "/api/contact",
   "/favicon.ico/route": "/favicon.ico",
-  "/Joinus/page": "/Joinus",
-  "/About/page": "/About",
-  "/OurService/page": "/OurService",
   "/Partners/page": "/Partners",
-  "/OurWork/page": "/OurWork",
   "/Partners/unique/page": "/Partners/unique",
   "/careers/page": "/careers",
+  "/joinus/page": "/joinus",
   "/industries/page": "/industries",
+  "/about/page": "/about",
+  "/ourService/page": "/ourService",
   "/products.jsx/page": "/products.jsx",
-  "/page": "/",
-  "/process/page": "/process"
+  "/ourwork/page": "/ourwork",
+  "/process/page": "/process",
+  "/page": "/"
 }

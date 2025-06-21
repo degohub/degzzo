@@ -30,7 +30,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/About": {
+    "/joinus": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -43,32 +43,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/About",
-      "dataRoute": "/About.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/Joinus": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/Joinus",
-      "dataRoute": "/Joinus.rsc",
+      "srcRoute": "/joinus",
+      "dataRoute": "/joinus.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -126,6 +102,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/about": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/Partners/unique": {
       "experimentalBypassFor": [
         {
@@ -165,6 +165,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/industries",
       "dataRoute": "/industries.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/careers": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/careers",
+      "dataRoute": "/careers.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -222,7 +246,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/OurService": {
+    "/ourService": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -235,8 +259,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/OurService",
-      "dataRoute": "/OurService.rsc",
+      "srcRoute": "/ourService",
+      "dataRoute": "/ourService.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -246,7 +270,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/careers": {
+    "/ourwork": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -259,32 +283,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/careers",
-      "dataRoute": "/careers.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/OurWork": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/OurWork",
-      "dataRoute": "/OurWork.rsc",
+      "srcRoute": "/ourwork",
+      "dataRoute": "/ourwork.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -298,8 +298,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "5036ac75e2a7eeb31d507d270e3f1def",
-    "previewModeSigningKey": "a2e026e33e4a493b9e30cbdd255a506c8ece44895501f813d5baa64fa254018f",
-    "previewModeEncryptionKey": "181f73cc4994aed08ad065afe206ff43f6d4dbb39dc263c5fbb3ecfc8543b3f8"
+    "previewModeId": "fb8e1f494f28203f65e4d3a23e12f496",
+    "previewModeSigningKey": "c003b5256d2bbc456cd22232e71ab38893d4b506e0fc95b010c56ae7fe446108",
+    "previewModeEncryptionKey": "a8c7e36ce3b10019063428f1d5cd35508c4c312df753bf27105b0dfa27680940"
   }
 }

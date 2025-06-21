@@ -22,30 +22,6 @@
       "namedRegex": "^/(?:/)?$"
     },
     {
-      "page": "/About",
-      "regex": "^/About(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/About(?:/)?$"
-    },
-    {
-      "page": "/Joinus",
-      "regex": "^/Joinus(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/Joinus(?:/)?$"
-    },
-    {
-      "page": "/OurService",
-      "regex": "^/OurService(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/OurService(?:/)?$"
-    },
-    {
-      "page": "/OurWork",
-      "regex": "^/OurWork(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/OurWork(?:/)?$"
-    },
-    {
       "page": "/Partners",
       "regex": "^/Partners(?:/)?$",
       "routeKeys": {},
@@ -64,6 +40,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
       "page": "/careers",
       "regex": "^/careers(?:/)?$",
       "routeKeys": {},
@@ -80,6 +62,24 @@
       "regex": "^/industries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/industries(?:/)?$"
+    },
+    {
+      "page": "/joinus",
+      "regex": "^/joinus(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/joinus(?:/)?$"
+    },
+    {
+      "page": "/ourService",
+      "regex": "^/ourService(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ourService(?:/)?$"
+    },
+    {
+      "page": "/ourwork",
+      "regex": "^/ourwork(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ourwork(?:/)?$"
     },
     {
       "page": "/process",
