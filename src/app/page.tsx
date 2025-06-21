@@ -8,55 +8,47 @@ import HoverTouchVideoGrid from '../../components/HoverTouchVideoGrid'
 import Review from '../../components/Review';
 import OurTeam from '../../components/OurTeam'
 import { PackageSearch,Store,PencilRuler,MonitorCog,BrainCog } from 'lucide-react';
-import { FaArrowRight } from "react-icons/fa6";
 
 function Home() {
   return (
     <>
       <div className="p-2 mx-5 xl:mx-40 font-handre">
-          <div className="text-3xl sm:text-5xl xl:text-7xl tracking-wide leading-[1.5] pt-5 font-boldonse"><a className="text-red-500">G</a>lobal-Class Design Company</div>
-
-            
-          <div className="flex items-center h-15 xl:h-auto  text-2xl md:text-4xl xl:mt-10">
-              <div className="">Creative</div>
-              <div className="px-2 ml-1 bg-blue-200 rounded-md ">
-                <RotatingText  
-                  texts={[
-                    "Hello, World!",
-                    "React is Awesome!",
-                    "Animating with Framer Motion!"
-                  ]}
-                  rotationInterval={2000}
-                  />
+        <div className="flex xl:flex-row flex-col gap-5 xl:gap-10 items-center justify-between">
+            <div className="xl:w-1/2">
+                <div className="text-3xl sm:text-5xl xl:text-6xl tracking-wide leading-[1.5] pt-5 font-boldonse"><a className="text-[#ff9100]">G</a>lobal-Class Design Company</div>
+                <div className="flex items-center h-25 xl:h-10 text-2xl md:text-4xl xl:mt-10">
+                    <div className="">Creative</div>
+                    <div className="px-2 ml-1 bg-blue-200 rounded-md ">
+                      <RotatingText  
+                        texts={[
+                          "Hello, World!",
+                          "React is Awesome!",
+                          "Animating with Framer Motion!"
+                        ]}
+                        rotationInterval={2000}
+                        />
+                  </div>
+                </div>
+            </div>
+            <div className=" xl:w-1/2 overflow-hidden">
+            <video 
+                autoPlay 
+                loop 
+                muted 
+                playsInline 
+                preload="auto"
+                controls
+                className="w-[900px] h-[250px] xl:h-[400px] object-cover"
+                onError={(e) => console.error('Video error:', e)}
+              >
+                <source src="/videos/1000X1200-logo-v.mp4" type="video/mp4" />
+              </video>
             </div>
           </div>
 
-          <div className="flex justify-center pt-5 overflow-hidden">
-           <video 
-              autoPlay 
-              loop 
-              muted 
-              playsInline 
-              preload="auto"
-              controls
-              className="w-full max-w-[800px]"
-              onError={(e) => console.error('Video error:', e)}
-            >
-              <source src="/videos/1000X1200-logo-v.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
 
-          
-          <Link rel="stylesheet" href="" >
-           <div className="flex justify-center mt-6  items-center cursor-pointer ">
-            <div className=" text-2xl xl:text-4xl ">Get in touch</div>
-            <div className="pl-3"><FaArrowRight size={25}  /></div>
-          </div>
-          </Link>
-
-          <div className="">
-              <div className="text-2xl pt-10 lg:text-3xl font-poppins font-bold ">Our Servies</div>
+          <div className="text-center py-15">
+              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900">Our Servies</div>
               <div className="pt-3 text-xl  md:text-2xl">We create beautiful Digital Products & Branding that your customers will love and we do a whole lot more.</div>
                 <div className="pt-4 flex flex-wrap justify-center xl:gap-10 text-base sm:text-xl xl:text-4xl">
                     {/* First Row */}
@@ -74,16 +66,12 @@ function Home() {
 
           </div>
 
-          <div className="pb-10 pt-10">
-                <div className="text-2xl  lg:text-3xl font-poppins font-bold ">Our Results</div>
+          <div className="pb-10 text-center pt-10">
+                <div className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900">Our Results</div>
                 <div className="pt-3 text-xl  md:text-2xl">We partner with start-ups to corporates, creating, or elevating their digital needs.</div>
-                <div className="flex items-center cursor-pointer "><div className=" text-lg  ">Expoler</div><div className="pl-3"><FaArrowRight /></div> 
-                 
+
           </div>
           <HoverTouchVideoGrid/>
-                
-          </div>
-          
       </div>
       <OurRecentClients/>
       <Review/>
