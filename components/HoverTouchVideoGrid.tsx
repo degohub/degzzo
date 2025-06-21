@@ -40,7 +40,7 @@ export default function HoverTouchVideoGrid() {
   const [playingIndex, setPlayingIndex] = useState<number | null>(null);
 
   return (
-    <section className="bg-white pt-5 text-gray-800">
+    <section className=" pt-5 text-gray-800">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
           {videoItems.map((item, i) => (

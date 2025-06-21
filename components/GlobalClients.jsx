@@ -80,7 +80,7 @@ export default function GlobalPartnerSection() {
   }, []);
 
   return (
-    <section className="relative xl:py-10">
+    <section className="relative py-10 text-white">
       <div className="p-5 mx-auto text-center">
         <motion.h2
           className="text-2xl sm:text-3xl md:text-4xl font-bold mb-10"
@@ -102,7 +102,7 @@ export default function GlobalPartnerSection() {
           ["Partner G", "Partner H"].includes(partner.name) ? "hidden md:block" : ""
         }`}
       >
-        <div className="flex justify-center relative w-full max-w-[80px] sm:max-w-[130px] md:max-w-[100px] mx-auto">
+        <div className="flex justify-center relative w-full max-w-[80px] sm:max-w-[130px] md:max-w-[100px] mx-auto ">
           <Link href={activeLogo.link}>
             <AnimatePresence mode="wait">
               <motion.img
@@ -113,7 +113,7 @@ export default function GlobalPartnerSection() {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.2 }}
-                className="w-full h-auto object-cover grayscale hover:grayscale-0 transition duration-300 cursor-pointer"
+                className="w-full h-auto object-cover  transition duration-300 cursor-pointer bg-white rounded-2xl p-2 shadow-lg hover:scale-105"
               />
             </AnimatePresence>
           </Link>

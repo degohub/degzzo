@@ -43,7 +43,7 @@ export default function ReviewSection() {
             What they say about us
           </motion.h2>
 
-          <motion.a
+          {/* <motion.a
             href="/reviews"
             className="mt-4 sm:mt-0 text-black font-medium flex items-center gap-2 group"
             initial={{ opacity: 0, y: 30 }}
@@ -53,7 +53,7 @@ export default function ReviewSection() {
           >
             Read more
             <FaArrowRight size={15}  />
-          </motion.a>
+          </motion.a> */}
         </div>
 
         {/* Reviews */}
@@ -67,10 +67,9 @@ export default function ReviewSection() {
                   viewport={{ once: true }}
                   className="w-full md:w-1/3"
                 >
-                  <div className="bg-blue-300 p-5 min-h-[180px] xl:min-h-[200px]  flex flex-col justify-between rounded-lg shadow-md">
+                  <div className="bg-blue-300 p-5 h-70 min-h-[180px] xl:min-h-[200px]  flex flex-col justify-between rounded-lg shadow-md">
                     <img src={review.logo} alt="" className="rounded-full w-15 h-15 "/>
                     <div className="flex gap-2 items-center">
-                    
                     <p className="text-md">“{review.message}”</p>
                     </div>
                     <div>

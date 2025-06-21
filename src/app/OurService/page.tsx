@@ -100,7 +100,7 @@ const buildServices = [
   },
 ];
 
-export default function OurServicesPage() {
+export default function ServicesPage() {
   return (
     <main className="bg-white min-h-screen py-10 px-6 md:px-12 xl:px-32 ">
       <motion.h1

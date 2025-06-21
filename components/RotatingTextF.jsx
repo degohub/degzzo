@@ -19,7 +19,7 @@ const RotatingText = ({ texts, rotationInterval }) => {
       initial={{ opacity: 0, y: -20 }} // Moves from the top & fades in
       animate={{ opacity: 1, y: 0 }}  // Ends at normal position
       exit={{ opacity: 0, y: 20 }}   // Moves downward & fades out
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.5, ease: "easeInOut" }} // Smooth transition
       className="text-center"
     >
       {texts[index]}
